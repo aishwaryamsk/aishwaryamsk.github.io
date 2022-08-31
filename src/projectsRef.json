@@ -10,7 +10,7 @@
             "CSS",
             "Python"
         ],
-        "source": "IEEE",
+        "source": "IEEE-VIS",
         "challengeLink": "https://vast-challenge.github.io/2022/index.html",
         "github": "https://github.com/aishwaryamsk/vast-challenge-2022",
         "demoLink": "https://aishwaryamsk.github.io/vast-challenge-2022/economics.html"
@@ -34,7 +34,7 @@
         "title": "US State Sentiments Towards COVID-19",
         "imgSrc": "./images/choropleth_map_cover.png",
         "shortDescription": "Visualizing US state sentiments towards COVID-19",
-        "longDescription": "This visualization was developed as part of a group project for the class Data and Visual Analytics (CSE 6242) at Georgia Tech. We visualized the sentiments of tweets related to COVID-19 in the US from 2020-2021. The slidable timeline selector allows users to specify the duration they are interested in. The choropleth map shows the average state sentiment towards COVID-19 during the selected period.",
+        "longDescription": "This visualization was developed as part of a group project for the class Data and Visual Analytics (CSE 6242) at Georgia Institute of Technology. We visualized the sentiments of tweets related to COVID-19 in the US from 2020-2021. The slidable timeline selector allows users to specify the duration they are interested in. The choropleth map shows the average state sentiment towards COVID-19 during the selected period.",
         "languages": [
             "d3.js",
             "HTML",
@@ -50,7 +50,7 @@
         "title": "Ethnicities in Grammy Awards",
         "imgSrc": "./images/grammy_awards_cover.png",
         "shortDescription": "Visualizing ethnicities in Grammy Awards",
-        "longDescription": "This Tableau Storyboard on ethnicities in the Grammys was created as part of a group project for the class Data Visualization Principles (CS 6730) at Georgia Tech. We focused on major Grammy Award categories for a period of 20 years from 1999-2019 in this dataset. We also looked at Billboard Hot 100 during this period to find correlations between chart performance and award nominations/winnings. \n We utilized stacked bar charts, line charts, box plots, heat maps, and tree maps to narrate the story.",
+        "longDescription": "This Tableau Storyboard on ethnicities in the Grammys was created as part of a group project for the class Data Visualization Principles (CS 6730) at Georgia Institute of Technology. We focused on major Grammy Award categories for a period of 20 years from 1999-2019 in this dataset. We also looked at Billboard Hot 100 during this period to find correlations between chart performance and award nominations/winnings. \n We utilized stacked bar charts, line charts, box plots, heat maps, and tree maps to narrate the story.",
         "languages": [
             "Tableau"
         ],
