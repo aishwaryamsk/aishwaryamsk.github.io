@@ -5,7 +5,7 @@
         "shortDescription": "Visualizing the economic sector of Engagement city, Ohio",
         "longDescription": "This was a submission for the Visual Analytics Science and Technology (VAST) challenge at IEEE-VIS 2022. I worked on mini-challenge 3 that investigated the economic sector of Engagement city at Ohio, USA. Based on data taken from a study, as well as information provided by participants over a period of months, the challenge asks to analyze the participants’ finances and business trends in the city. \n\n The first graph looks into individual participants’ background and finances. And the second graph takes a look into business prosperity. Taking a creative approach to the challenge, I used textures, shapes, colors, and sizes to encompass the various features of the dataset.",
         "languages": [
-            "d3.js",
+            "D3.js",
             "HTML",
             "CSS",
             "Python"
@@ -21,7 +21,7 @@
         "shortDescription": "Visualizing 20 most common objects in paintings",
         "longDescription": "This is a personal project that visualizes the 20 most common objects in paintings since in the 1800s. The objects in the paintings were detected using the Google Cloud Vision API. \n\n Moving in a clockwise direction from the top, the labels in the pie-chart go in decreasing frequency of the objects painted. The inner curve marks the selected object. The strokes around the pie chart represent images that contain the object. Clicking on the labels in the pie-chart highlights the object. Hovering or clicking on the strokes around the pie-chart shows details regarding the painting. \n “Detected Labels” under the image of the painting lists the labels (or objects) detected using the Google Vision API.",
         "languages": [
-            "d3.js",
+            "D3.js",
             "HTML",
             "CSS",
             "Python"
@@ -36,7 +36,7 @@
         "shortDescription": "Visualizing US state sentiments towards COVID-19",
         "longDescription": "This visualization was developed as part of a group project for the class Data and Visual Analytics (CSE 6242) at Georgia Institute of Technology. We visualized the sentiments of tweets related to COVID-19 in the US from 2020-2021. The slidable timeline selector allows users to specify the duration they are interested in. The choropleth map shows the average state sentiment towards COVID-19 during the selected period.",
         "languages": [
-            "d3.js",
+            "D3.js",
             "HTML",
             "CSS",
             "Python"
