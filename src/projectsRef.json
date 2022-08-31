@@ -19,7 +19,7 @@
         "title": "20 Most Common Objects in Paintings",
         "imgSrc": "./images/paintings_cover.png",
         "shortDescription": "Visualizing 20 most common objects in paintings",
-        "longDescription": "This is a personal project that visualizes the 20 most common objects in paintings since in the 1800s. The objects in the paintings were detected using the Google Cloud Vision API. \n\n Moving in a clockwise direction from the top, the labels in the pie-chart go in decreasing frequency of the objects painted. The inner curve marks the selected object. The strokes around the pie chart represent images that contain the object. Clicking on the labels in the pie-chart highlights the object. Hovering or clicking on the strokes around the pie-chart shows details regarding the painting. \n “Detected Labels” under the image of the painting lists the labels (or objects) detected using the Google Vision API.",
+        "longDescription": "This is a personal project where I visualized the 20 most common objects in paintings since in the 1800s. The objects in the paintings were detected using the Google Cloud Vision API. \n\n Moving in a clockwise direction from the top, the labels in the pie-chart go in decreasing frequency of the objects painted. The inner curve marks the selected object. The strokes around the pie chart represent images that contain the object. Clicking on the labels in the pie-chart highlights the object. Hovering or clicking on the strokes around the pie-chart shows details regarding the painting. \n “Detected Labels” under the image of the painting lists the labels (or objects) detected using the Google Vision API.",
         "languages": [
             "D3.js",
             "HTML",
