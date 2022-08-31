@@ -3,7 +3,7 @@
         "title": "IEEE-VIS VAST Challenge 2022",
         "imgSrc": "./images/vast_cover.png",
         "shortDescription": "Visualizing the economic sector of Engagement city, Ohio",
-        "longDescription": "This was a submission for the Visual Analytics Science and Technology (VAST) challenge at IEEE-VIS 2022. I worked on mini-challenge 3 that investigated the economic sector of Engagement city at Ohio, USA. Based on data taken from a study, as well as information provided by participants over a period of months, the challenge asks to analyze the participants’ finances and business trends in the city. \n\n The first graph looks into individual participants’ background and finances. And the second graph takes a look into business prosperity. Taking a creative approach to the challenge, I used textures, shapes, colors, and sizes to encompass the various features of the dataset.",
+        "longDescription": "This was a submission for the Visual Analytics Science and Technology (VAST) challenge at IEEE-VIS 2022. I worked on mini-challenge 3 that investigated the economic sector of Engagement city at Ohio, USA. Based on data taken from a study, as well as information provided by participants over a period of months, the challenge asks to analyze the participants’ finances and business trends in the city. \n\n The first graph looks into individual participants’ background and finances. And the second graph takes a look into business prosperity. Taking a creative approach to the challenge, I used hues, shapes, sizes, textures, and proximity to represent various features of the dataset.",
         "languages": [
             "D3.js",
             "HTML",
