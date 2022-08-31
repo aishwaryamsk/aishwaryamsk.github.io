@@ -1,52 +1,54 @@
 <script>
-  export let project;
+  import {location} from 'svelte-spa-router'
+  import projectsRef from "../projectsRef.json";
+  let loc = $location.replace(/\//g, "");
 </script>
 
 <div class='row g-0'>
-  <div class='proj-title text-center py-5'>{project.title}</div>
+  <div class='proj-title text-center py-5'>{projectsRef[loc].title}</div>
   <div class='col-sm-5 pb-3'>
     <img
       class='proj-img me-auto d-block'
-      src={project.imgSrc}
+      src={projectsRef[loc].imgSrc}
       alt='project cover'
     />
   </div>
   <div class='col-sm-7 p-1'>
-    <p class='break-line'>{project.longDescription}</p>
+    <p class='break-line'>{projectsRef[loc].longDescription}</p>
     <p>
       <span class='bold-txt'>Source: </span>
-      {project.source}
+      {projectsRef[loc].source}
     </p>
     <div>
       <span class='bold-txt '>Tools: </span>
     </div>
     <ul class='clearfix'>
-      {#each project.languages as item}
+      {#each projectsRef[loc].languages as item}
         <li class='one-line-list'>{item}</li>
       {/each}
     </ul>
     <p>
-      {#if project.refDataset}
+      {#if projectsRef[loc].refDataset}
         <span class='p-1'>
           <i class='bi bi-link-45deg link-icon' />
-          <a class='proj-link bold-txt' href={project.refDataset} target='_blank'>Reference Dataset</a>
+          <a class='proj-link bold-txt' href={projectsRef[loc].refDataset} target='_blank'>Reference Dataset</a>
         </span>
       {/if}
-      {#if project.challengeLink}
+      {#if projectsRef[loc].challengeLink}
         <span class='p-1'>
           <i class='bi bi-link-45deg link-icon' />
-          <a class='proj-link bold-txt' href={project.challengeLink} target='_blank'>Challenge</a>
+          <a class='proj-link bold-txt' href={projectsRef[loc].challengeLink} target='_blank'>Challenge</a>
         </span>
       {/if}
-      {#if project.github}
+      {#if projectsRef[loc].github}
         <span class='p-1'>
           <i class='bi bi-link-45deg link-icon' />
-          <a class='proj-link bold-txt' href={project.github} target='_blank'>GitHub</a>
+          <a class='proj-link bold-txt' href={projectsRef[loc].github} target='_blank'>GitHub</a>
         </span>
       {/if}
       <span class='p-1'>
         <i class='bi bi-link-45deg link-icon' />
-        <a class='proj-link bold-txt' href={project.demoLink} target='_blank'>Demo</a>
+        <a class='proj-link bold-txt' href={projectsRef[loc].demoLink} target='_blank'>Demo</a>
       </span>
     </p>
   </div>
