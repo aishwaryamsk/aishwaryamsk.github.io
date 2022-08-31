@@ -8,8 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "node ./gh-pages.js",
-    "start": "sirv public --single",
-    "start:dev": "sirv public --dev --single"
+    "start": "sirv public -s",
+    "start:dev": "sirv public --dev -s"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
