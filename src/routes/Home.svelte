@@ -1,46 +1,37 @@
 <script>
-  import ProjectCard from "./ProjectCard.svelte";
-  import projectsRef from "../projectsRef.json";
+  import ProjectBody from './ProjectBody.svelte';
+  import About from './About.svelte';
+  import projectsRef from '../projectsRef.json';
+
+  let showProjects = true;
+  let showAbout = false;
+
+  function navigateMenuItem(event) {
+    let divs = document.querySelectorAll('#menu div');
+    for (let i = 0; i < divs.length; i++) {
+      divs[i].classList.remove('underscore');
+    }
+    let id = event.target.id;
+    document.getElementById(id).classList.add('underscore');
+
+    showProjects = showAbout = false;
+    if (id == 'projectsMenu') showProjects = true 
+    else showAbout = true;
+  }
 </script>
 
-<div class="d-flex flex-column">
-  <div class="title text-center py-3">Projects</div>
-
-  <div class="content-body d-flex justify-content-center my-sm-3">
-    <div class="project pe-sm-4">
-      <ProjectCard
-        projectName={"/mostCommonObjsInPaintings"}
-        cardTitle={projectsRef.mostCommonObjsInPaintings.title}
-        coverImg={projectsRef.mostCommonObjsInPaintings.imgSrc}
-        shortDesc={projectsRef.mostCommonObjsInPaintings.shortDescription}
-      />
+<div class='d-flex flex-column'>
+  <div id='menu' class='d-flex justify-content-center title py-3'>
+    <div id='projectsMenu' class='underscore px-4 pt-4' on:click={navigateMenuItem}>
+      Projects
     </div>
-    <div class="project ps-sm-4">
-      <ProjectCard
-        projectName={"/ethnicitiesInGrammys"}
-        cardTitle={projectsRef.ethnicitiesInGrammys.title}
-        coverImg={projectsRef.ethnicitiesInGrammys.imgSrc}
-        shortDesc={projectsRef.ethnicitiesInGrammys.shortDescription}
-      />
-    </div>
+    <div id='aboutMenu' class='px-4 pt-4' on:click={navigateMenuItem}>About</div>
   </div>
 
-  <div class="content-body d-flex justify-content-center my-sm-3">
-    <div class="project pe-sm-4">
-      <ProjectCard
-        projectName={"/vast2022"}
-        cardTitle={projectsRef.vast2022.title}
-        coverImg={projectsRef.vast2022.imgSrc}
-        shortDesc={projectsRef.vast2022.shortDescription}
-      />
-    </div>
-    <div class="project ps-sm-4">
-      <ProjectCard
-        projectName={"/covid19sentiments"}
-        cardTitle={projectsRef.covid19sentiments.title}
-        coverImg={projectsRef.covid19sentiments.imgSrc}
-        shortDesc={projectsRef.covid19sentiments.shortDescription}
-      />
-    </div>
-  </div>
+  {#if showProjects}
+    <ProjectBody projects={projectsRef.projects}/>
+  {/if}
+  {#if showAbout}
+    <About data={projectsRef.about}/>
+  {/if}
 </div>

@@ -1,8 +1,21 @@
 .title {
   font-family: 'Bilbo Swash Caps';
-  font-size: 2.7em;
+  font-size: 2.5em;
   font-weight: 900;
   color: #8B2727;
+  cursor: pointer;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Aboreto';
+  font-size: 1.7em;
+  font-weight: 900;
+}
+
+.underscore {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .card-link {
@@ -76,6 +89,10 @@
 
 .tools-txt {
   color: grey;
+}
+
+.thick-txt {
+  font-weight: 400;
 }
 
 .one-line-list {

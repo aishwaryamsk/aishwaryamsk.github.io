@@ -19,7 +19,11 @@
         asyncComponent: () => import('./routes/ProjectDesc.svelte')
     }),
 
-    '*': wrap({
+    '/about': wrap({
+        asyncComponent: () => import('./routes/About.svelte')
+    }),
+
+    '/': wrap({
         asyncComponent: () => import('./routes/Home.svelte')
     })
 }
@@ -33,7 +37,7 @@
   />
   <!-- Font -->
   <link
-    href="https://fonts.googleapis.com/css?family=Bilbo Swash Caps|Nunito"
+    href="https://fonts.googleapis.com/css?family=Bilbo Swash Caps|Nunito|Aboreto"
     rel="stylesheet"
     type="text/css"
   />
