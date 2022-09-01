@@ -2,8 +2,11 @@
   font-family: 'Bilbo Swash Caps', cursive;
   font-size: 2.5em;
   font-weight: 900;
-  color: #8B2727;
   cursor: pointer;
+}
+
+.title:hover {
+  color: #6F1F1F;
 }
 
 .name {
@@ -12,6 +15,11 @@
   font-size: 1.7em;
   color: #996515;
 }
+
+.title, .proj-title {
+  color: #9F1E10;
+}
+
 
 .underscore {
   text-decoration: underline;
@@ -66,7 +74,6 @@
 .proj-title {
   font-family: 'Nunito', sans-serif;
   font-size: 1.7em;
-  color: #8B2727;
 }
 
 .proj-link {
