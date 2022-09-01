@@ -1,5 +1,5 @@
 .title {
-  font-family: 'Bilbo Swash Caps';
+  font-family: 'Bilbo Swash Caps', cursive;
   font-size: 2.5em;
   font-weight: 900;
   color: #8B2727;
@@ -8,9 +8,9 @@
 
 .name {
   text-align: center;
-  font-family: 'Aboreto';
+  font-family: 'Aboreto', cursive;
   font-size: 1.7em;
-  font-weight: 900;
+  color: #996515;
 }
 
 .underscore {
@@ -64,9 +64,8 @@
 }
 
 .proj-title {
-  font-family: 'Nunito';
+  font-family: 'Nunito', sans-serif;
   font-size: 1.7em;
-  font-weight: 900;
   color: #8B2727;
 }
 
