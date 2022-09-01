@@ -22,10 +22,10 @@
 
 <div class='d-flex flex-column'>
   <div id='menu' class='d-flex justify-content-center title py-3'>
-    <div id='projectsMenu' class='underscore px-4 pt-4' on:click={navigateMenuItem}>
+    <div id='projectsMenu' class='underscore px-4' on:click={navigateMenuItem}>
       Projects
     </div>
-    <div id='aboutMenu' class='px-4 pt-4' on:click={navigateMenuItem}>About</div>
+    <div id='aboutMenu' class='px-4' on:click={navigateMenuItem}>About</div>
   </div>
 
   {#if showProjects}

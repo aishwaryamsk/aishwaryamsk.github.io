@@ -4,7 +4,7 @@
     export let projects;
   </script>
 
-<div class='content-body d-flex justify-content-center my-sm-3 pt-2'>
+<div class='content-body d-flex justify-content-center my-sm-3'>
     <div class='project pe-sm-4'>
       <ProjectCard
         projectName={'/mostCommonObjsInPaintings'}

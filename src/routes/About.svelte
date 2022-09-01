@@ -3,7 +3,7 @@
 </script>
 
 <div class="row g-0">
-  <div class="pt-4 name">Aishwarya Mudgal</div>
+  <div class="pt-1 name">Aishwarya Mudgal</div>
   <div class="col-sm-3 p-3">
     <img
       class="proj-img me-auto d-block"
@@ -11,7 +11,6 @@
       alt="profile"
     />
   </div>
-
   <div class="col-sm-9 p-3">
     <div>
       Hello there! I’m a second-year master’s student in

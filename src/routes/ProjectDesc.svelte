@@ -5,15 +5,15 @@
 </script>
 
 <div class='row g-0'>
-  <div class='proj-title text-center py-5'>{projectsRef.projects[loc].title}</div>
-  <div class='col-sm-5 pb-3'>
+  <div class='proj-title text-center pt-5 pb-3'>{projectsRef.projects[loc].title}</div>
+  <div class='col-sm-5 p-3'>
     <img
       class='proj-img me-auto d-block'
       src={projectsRef.projects[loc].imgSrc}
       alt='project cover'
     />
   </div>
-  <div class='col-sm-7 p-2'>
+  <div class='col-sm-7 p-3'>
     <p class='break-line'>{projectsRef.projects[loc].longDescription}</p>
     <p>
       <span class='bold-txt'>Source: </span>
