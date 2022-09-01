@@ -15,7 +15,7 @@
     <div>
       Hello there! I’m a second-year master’s student in
       <span class="bold-txt">Computer Science</span> specializing in
-      <span class="bold-txt">Visual Analytics</span> at the Georgia Institute of
+      <span class="bold-txt">Visual Analytics</span> at Georgia Institute of
       Technology. I’m interested in data visualization and visual analytics. I
       currently work with
       <a class="proj-link" href={data.endertLink} target="_blank"
