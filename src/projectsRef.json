@@ -57,6 +57,19 @@
             ],
             "source": "Wikipedia",
             "demoLink": "https://public.tableau.com/shared/7MWWX42WY?:display_count=n&:origin=viz_share_link"
+        },
+        "multiTouchGrahingTool": {
+            "title": "Multi-Touch Data Exploration Tool",
+            "imgSrc": "./images/multi_touch_tool_cover.png",
+            "shortDescription": "Pointer & Touch based data exploration tool",
+            "longDescription": "This data exploration tool was developed as part of a group project for the class Principles of UI Software (CS 6456) at Georgia Institute of Technology. It allows users to interact with unit visualizations using purely touch or pointer (for example, pen) interactions. It allows users to assign colors, sizes, and custom shapes (using SVGs) to data points in the visualization. This tool is optimized for touch-based devices like tablets. \n\n <span class='bold-txt'>Multi-Touch Gestures:</span> Users can select points via <i>lasso selection</i> using a single finger, undo or redo an action using <i>two-finger left or right swipes</i>, zoom or pan with <i>two-finger pinch or spread</i>, reset zoom with <i>two-finger double tap</i>, or sort data points along an axis by <i>long-pressing a single-finger</i> on an axis. \n\n <span class='bold-txt'>Features:</span> Users can color, resize or assign shapes to data points. They can also filter data, encode data attributes to size and color, view details of selected points, and undo or redo their actions. They can upload custom SVGs and color or resize the uploaded SVGs.",
+            "languages": [
+                "D3.js", "HTML", "CSS"
+            ],
+            "source": "Kaggle",
+            "sourceLink": "https://www.kaggle.com/datasets/fivethirtyeight/the-ultimate-halloween-candy-power-ranking",
+            "github": "https://github.com/aishwaryamsk/multitouch_graphing_tool",
+            "demoLink": "https://aishwaryamsk.github.io/multitouch_graphing_tool/index.html"
         }
     },
     "about": {
@@ -64,6 +77,6 @@
         "endertLink": "http://va.gatech.edu/endert/",
         "andrisLink": "https://planning.gatech.edu/people/clio-andris",
         "emailImgSrc": "./images/email.png",
-        "resumeLink": "https://www.dropbox.com/s/cxp6huver5hjj6m/Resume.pdf?dl=0"
+        "resumeLink": "https://www.dropbox.com/s/8718no1ax8m7u2f/Resume.pdf?dl=0"
     }
 }

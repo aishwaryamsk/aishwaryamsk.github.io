@@ -7,6 +7,10 @@
       asyncComponent: () => import("./routes/ProjectDesc.svelte"),
     }),
 
+    "/multiTouchGrahingTool": wrap({
+      asyncComponent: () => import("./routes/ProjectDesc.svelte"),
+    }),
+
     "/ethnicitiesInGrammys": wrap({
       asyncComponent: () => import("./routes/ProjectDesc.svelte"),
     }),
