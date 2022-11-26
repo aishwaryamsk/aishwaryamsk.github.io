@@ -1,4 +1,4 @@
-import{S as W,i as X,s as Y,e as a,a as v,t as r,b as t,c as x,d as Z,f as e,n as U,g as $}from"./index.ea62bf86.js";function ee(o){let l,h,_,d,c,I,q,n,i,D,C,E,S,G,m,M,A,T,u,V,L,F,H,R,B,J,K,k,y,N,f,j,O,b,z,P,p,Q,w;return{c(){l=a("div"),h=a("div"),h.textContent="Aishwarya Mudgal",_=v(),d=a("div"),c=a("img"),q=v(),n=a("div"),i=a("div"),D=r(`Hello there! I\u2019m a second-year master\u2019s student in
+import{S as W,i as X,s as Y,e as a,a as v,t as r,b as t,c as x,d as Z,f as e,n as U,g as $}from"./index.c4ef6661.js";function ee(o){let l,h,_,d,c,I,q,n,i,D,C,E,S,G,m,M,A,T,u,V,L,F,H,R,B,J,K,k,y,N,f,j,O,b,z,P,p,Q,w;return{c(){l=a("div"),h=a("div"),h.textContent="Aishwarya Mudgal",_=v(),d=a("div"),c=a("img"),q=v(),n=a("div"),i=a("div"),D=r(`Hello there! I\u2019m a second-year master\u2019s student in
       `),C=a("span"),C.textContent="Computer Science",E=r(` specializing in
       `),S=a("span"),S.textContent="Visual Analytics",G=r(` at Georgia Institute of
       Technology. I\u2019m interested in data visualization and visual analytics. I
