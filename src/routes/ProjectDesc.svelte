@@ -56,14 +56,20 @@
       {/if}
     </p>
 
-    <div>
+    <!-- <div>
       <span class="bold-txt">Tools: </span>
-    </div>
-    <ul class="clearfix">
+    </div> -->
+    <!-- <ul class="clearfix">
       {#each projectsRef.projects[loc].languages as item}
         <li class="one-line-list">{item}</li>
       {/each}
-    </ul>
+    </ul> -->
+      <div class="bold-txt">Tools: </div>
+      <p>
+        {#each projectsRef.projects[loc].languages as item}
+          <span class="proj-tools brief-one-line-list">{item}</span>
+        {/each}
+      </p>
   </div>
 
   <div class="col-sm-7 p-3">

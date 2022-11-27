@@ -50,7 +50,7 @@
 }
 
 .card:hover {
-  border-color: #2291FF !important;
+  border-color: #E4B07D !important;
 }
 
 .proj-img {
@@ -102,6 +102,11 @@
   font-weight: 400;
 }
 
+.brief-one-line-list {
+  float: left;
+  margin-right: 20px;
+}
+
 .one-line-list {
   float: left;
   margin-right: 40px;
@@ -109,6 +114,27 @@
 
 .break-line {
   white-space: pre-line;
+}
+
+.card-tools {
+  font-size: 0.85em;
+  font-style: oblique;
+  /* color: #2D93B7; */
+  color: #996515;
+  font-weight: 700;
+  /* font-family: 'Bilbo Swash Caps', cursive; */
+}
+.proj-tools {
+  font-size: 0.9em;
+  font-style: oblique;
+  /* color: #2D93B7; */
+  color: #996515;
+  font-weight: 700;
+}
+
+.inline-txt {
+  color: #996515;
+  /* font-weight: 600; */
 }
 
 @media only screen and (max-width: 575px) {
