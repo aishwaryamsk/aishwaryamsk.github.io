@@ -55,25 +55,15 @@
         </span>
       {/if}
     </p>
-
-    <!-- <div>
-      <span class="bold-txt">Tools: </span>
-    </div> -->
-    <!-- <ul class="clearfix">
+    <div class="bold-txt">Tools:</div>
+    <p>
       {#each projectsRef.projects[loc].languages as item}
-        <li class="one-line-list">{item}</li>
+        <span class="proj-tools brief-one-line-list">{item}</span>
       {/each}
-    </ul> -->
-      <div class="bold-txt">Tools: </div>
-      <p>
-        {#each projectsRef.projects[loc].languages as item}
-          <span class="proj-tools brief-one-line-list">{item}</span>
-        {/each}
-      </p>
+    </p>
   </div>
 
   <div class="col-sm-7 p-3">
-    <!-- <p class='break-line'>{projectsRef.projects[loc].longDescription}</p> -->
     <p class="break-line">{@html projectsRef.projects[loc].longDescription}</p>
     {#if projectsRef.projects[loc].sourceLink}
       <span class="bold-txt">Data Source: </span>

@@ -43,7 +43,6 @@
       tools={projects.ethnicitiesInGrammys.languages}
     />
   </div>
- 
 </div>
 
 <div class="content-body d-flex justify-content-center my-sm-3">
