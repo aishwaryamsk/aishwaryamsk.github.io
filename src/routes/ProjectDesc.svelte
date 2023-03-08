@@ -9,11 +9,19 @@
     {projectsRef.projects[loc].title}
   </div>
   <div class="col-sm-5 p-3">
-    <img
+    <!-- <img
       class="proj-img me-auto d-block"
       src={projectsRef.projects[loc].imgSrc}
       alt="project cover"
-    />
+    /> -->
+
+    <a href={projectsRef.projects[loc].demoLink} target="_blank">
+      <img
+        class="proj-img me-auto d-block"
+        src={projectsRef.projects[loc].imgSrc}
+        alt="project cover"
+      />
+    </a>
 
     <p>
       <span class="p-1">
