@@ -3,6 +3,10 @@
   import { wrap } from "svelte-spa-router/wrap";
 
   const routes = {
+    "/covid19_7450": wrap({
+      asyncComponent: () => import("./routes/ProjectDesc.svelte"),
+    }),
+
     "/mostCommonObjsInPaintings": wrap({
       asyncComponent: () => import("./routes/ProjectDesc.svelte"),
     }),

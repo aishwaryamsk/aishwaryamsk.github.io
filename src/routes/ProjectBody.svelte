@@ -6,11 +6,11 @@
 <div class="content-body d-flex justify-content-center my-sm-3">
   <div class="project pe-sm-4">
     <ProjectCard
-      projectName={"/mostCommonObjsInPaintings"}
-      cardTitle={projects.mostCommonObjsInPaintings.title}
-      coverImg={projects.mostCommonObjsInPaintings.imgSrc}
-      shortDesc={projects.mostCommonObjsInPaintings.shortDescription}
-      tools={projects.mostCommonObjsInPaintings.languages}
+      projectName={"/covid19_7450"}
+      cardTitle={projects.covid19_7450.title}
+      coverImg={projects.covid19_7450.imgSrc}
+      shortDesc={projects.covid19_7450.shortDescription}
+      tools={projects.covid19_7450.languages}
     />
   </div>
   <div class="project ps-sm-4">
@@ -27,6 +27,15 @@
 <div class="content-body d-flex justify-content-center my-sm-3">
   <div class="project pe-sm-4">
     <ProjectCard
+      projectName={"/mostCommonObjsInPaintings"}
+      cardTitle={projects.mostCommonObjsInPaintings.title}
+      coverImg={projects.mostCommonObjsInPaintings.imgSrc}
+      shortDesc={projects.mostCommonObjsInPaintings.shortDescription}
+      tools={projects.mostCommonObjsInPaintings.languages}
+    />
+  </div>
+  <div class="project ps-sm-4">
+    <ProjectCard
       projectName={"/vast2022"}
       cardTitle={projects.vast2022.title}
       coverImg={projects.vast2022.imgSrc}
@@ -34,7 +43,10 @@
       tools={projects.vast2022.languages}
     />
   </div>
-  <div class="project ps-sm-4">
+</div>
+
+<div class="content-body d-flex justify-content-center my-sm-3">
+  <div class="project pe-sm-4">
     <ProjectCard
       projectName={"/ethnicitiesInGrammys"}
       cardTitle={projects.ethnicitiesInGrammys.title}
@@ -43,10 +55,7 @@
       tools={projects.ethnicitiesInGrammys.languages}
     />
   </div>
-</div>
-
-<div class="content-body d-flex justify-content-center my-sm-3">
-  <div class="project pe-sm-4">
+  <div class="project ps-sm-4">
     <ProjectCard
       projectName={"/covid19sentiments"}
       cardTitle={projects.covid19sentiments.title}
