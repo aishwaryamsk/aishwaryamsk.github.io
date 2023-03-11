@@ -4,7 +4,7 @@
             "title": "COVID-19 Visualization",
             "imgSrc": "./images/covid19_7450.png",
             "shortDescription": "Visualizing the toll of COVID-19 in the US",
-            "longDescription": "This visualization was developed as part of an assignment for the class Information Visualization (CS 7450) with Prof. John Stasko at Georgia Institute of Technology. Given a dataset, we were tasked with designing and developing 3 visualizations in D3.js — a scatter plot, a bar chart and a line chart. \n\n This visualization provides an overview of the impact of COVID-19 in the US. It looks at the COVID-19 positive cases and COVID-19-related deaths and hospitalizations in the US. The chart is designed to be interactive. Hovering on elements in the charts provide details regarding the highlighted state.",
+            "longDescription": "This visualization provides an overview of the impact of COVID-19 in the US. It looks at the COVID-19 positive cases and COVID-19-related deaths and hospitalizations in the US. The chart is designed to be interactive. Hovering on elements in the charts provide details regarding the highlighted state. \n\n This visualization was developed as part of an assignment for the class Information Visualization (CS 7450) with Prof. John Stasko at Georgia Institute of Technology. Given a dataset, we were tasked with designing and developing 3 visualizations in D3.js — a scatter plot, a bar chart and a line chart.",
             "languages": [
                 "D3.js",
                 "HTML",
@@ -73,7 +73,7 @@
             "source": "Wikipedia",
             "demoLink": "https://public.tableau.com/shared/8673ZSZYR?:display_count=n&:origin=viz_share_link"
         },
-        "multiTouchGrahingTool": {
+        "multiTouchGraphingTool": {
             "title": "Multi-Touch based Data Exploration Tool",
             "imgSrc": "./images/multi_touch_vis_tool_cover.png",
             "shortDescription": "A data exploration tool using pointer & touch interactions",
@@ -92,6 +92,6 @@
         "endertLink": "http://va.gatech.edu/endert/",
         "andrisLink": "https://planning.gatech.edu/people/clio-andris",
         "emailImgSrc": "./images/email.png",
-        "resumeLink": "hhttps://www.dropbox.com/s/se7zdqkwc66sltz/Resume.pdf?dl=0"
+        "resumeLink": "https://drive.google.com/file/d/18Hxg4KRMhRAJEJ3Io0qlFlWA_OC2qVMI/view?usp=sharing"
     }
 }

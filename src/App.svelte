@@ -11,7 +11,7 @@
       asyncComponent: () => import("./routes/ProjectDesc.svelte"),
     }),
 
-    "/multiTouchGrahingTool": wrap({
+    "/multiTouchGraphingTool": wrap({
       asyncComponent: () => import("./routes/ProjectDesc.svelte"),
     }),
 
