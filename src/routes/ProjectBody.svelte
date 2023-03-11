@@ -15,11 +15,11 @@
   </div>
   <div class="project ps-sm-4">
     <ProjectCard
-      projectName={"/multiTouchGrahingTool"}
-      cardTitle={projects.multiTouchGrahingTool.title}
-      coverImg={projects.multiTouchGrahingTool.imgSrc}
-      shortDesc={projects.multiTouchGrahingTool.shortDescription}
-      tools={projects.multiTouchGrahingTool.languages}
+      projectName={"/multiTouchGraphingTool"}
+      cardTitle={projects.multiTouchGraphingTool.title}
+      coverImg={projects.multiTouchGraphingTool.imgSrc}
+      shortDesc={projects.multiTouchGraphingTool.shortDescription}
+      tools={projects.multiTouchGraphingTool.languages}
     />
   </div>
 </div>
