@@ -2,7 +2,7 @@
     "projects": {
         "covid19_7450": {
             "title": "COVID-19 Visualization",
-            "imgSrc": "./images/covid19_7450.jpg",
+            "imgSrc": "./images/covid19_7450.png",
             "shortDescription": "Visualizing the toll of COVID-19 in the US",
             "longDescription": "This visualization provides an overview of the impact of COVID-19 in the US. It looks at the COVID-19 positive cases and COVID-19-related deaths and hospitalizations in the US. The chart is designed to be interactive. Hovering on elements in the charts provide details regarding the highlighted state. \n\n This visualization was developed as part of an assignment for the class Information Visualization (CS 7450) with Prof. John Stasko at Georgia Institute of Technology. Given a dataset, we were tasked with designing and developing 3 visualizations in D3.js — a scatter plot, a bar chart and a line chart.",
             "languages": [
@@ -17,7 +17,7 @@
         },
         "vast2022": {
             "title": "IEEE-VIS VAST Challenge-3 2022",
-            "imgSrc": "./images/vast_cover.jpg",
+            "imgSrc": "./images/vast_cover.png",
             "shortDescription": "Visualizing the economic sector of Engagement city, Ohio",
             "longDescription": "This was a submission for the Visual Analytics, Science and Technology (VAST) challenge at IEEE-VIS 2022. I worked on mini-challenge 3 that investigated the economic sector of Engagement city at Ohio, USA. Based on data taken from a study, as well as information provided by participants over a period of months, the challenge asks to analyze the participants’ finances and business trends in the city. \n\n The first graph looks into individual participants’ background and finances. And the second graph takes a look into business prosperity. Taking a creative approach to the challenge, I used hues, shapes, sizes, textures, and proximity to represent various features of the dataset.",
             "languages": [
@@ -33,7 +33,7 @@
         },
         "mostCommonObjsInPaintings": {
             "title": "20 Most Common Objects in Paintings",
-            "imgSrc": "./images/paintings_cover.jpg",
+            "imgSrc": "./images/paintings_cover.png",
             "shortDescription": "Visualizing 20 most common objects in paintings",
             "longDescription": "This is a personal project where I visualized the 20 most common objects in paintings since in the 1800s. The objects in the paintings were detected using the Google Cloud Vision API. \n\n Moving in a clockwise direction from the top, the labels in the donut chart go in decreasing frequency of the objects painted. The inner curve marks the selected object. The strokes around the donut chart represent paintings that contain the object. Clicking on the labels in the donut chart highlights the object. Hovering or clicking on the strokes around the donut chart shows details regarding the painting. \n “Detected Labels” under the image of the painting lists the labels (or objects) detected using the Google Vision API.",
             "languages": [
@@ -48,7 +48,7 @@
         },
         "covid19sentiments": {
             "title": "US State Sentiments Towards COVID-19",
-            "imgSrc": "./images/choropleth_map_cover.jpg",
+            "imgSrc": "./images/choropleth_map_cover.png",
             "shortDescription": "Visualizing US state sentiments towards COVID-19",
             "longDescription": "We visualized the sentiments of tweets related to COVID-19 in the US from 2020-2021. The choropleth map shows the average state sentiment towards COVID-19 during the selected period. A range slider allows users to specify the duration they are interested in. \n\n The objective of this project was to understand how COVID-19 related government policies affects people’s well-being. This interactive dashboard allows users to visualize how different policy choices in the US affects the overall sentiments of tweets, which are computed using state-of-the-art transformer-based methods. \n\n This visualization was developed as part of a group project for the class Data and Visual Analytics (CSE 6242) with Prof. Polo Chau at the Georgia Institute of Technology.",
             "languages": [
@@ -64,7 +64,7 @@
         },
         "ethnicitiesInGrammys": {
             "title": "Ethnicities in Grammy Awards",
-            "imgSrc": "./images/grammy_awards_cover.jpg",
+            "imgSrc": "./images/grammy_awards_cover.png",
             "shortDescription": "Visualizing ethnicities in Grammy Awards",
             "longDescription": "This Tableau Storyboard on ethnicities in the Grammys was created as part of a group project for the class Data Visualization Principles (CS 6730) at Georgia Institute of Technology. We focused on major Grammy Award categories for a period of 20 years from 1999-2019 in this dataset. We also looked at Billboard Hot 100 during this period to find correlations between chart performance and award nominations/winnings. \n We utilized stacked bar charts, line charts, box plots, heat maps, and tree maps to narrate the story.",
             "languages": [
@@ -75,7 +75,7 @@
         },
         "multiTouchGraphingTool": {
             "title": "Multi-Touch based Data Exploration Tool",
-            "imgSrc": "./images/multi_touch_vis_tool_cover.jpg",
+            "imgSrc": "./images/multi_touch_vis_tool_cover.png",
             "shortDescription": "A data exploration tool using pointer & touch interactions",
             "longDescription": "This data exploration tool was developed as part of a group project for the class Principles of UI Software (CS 6456) at Georgia Institute of Technology. It allows users to interact with unit visualizations using purely touch or pointer (for example, pen) interactions. It allows users to assign colors, sizes, and custom shapes (using SVGs) to data points in the visualization. This tool is optimized for touch-based devices like tablets. \n\n <span class='bold-txt'>Multi-Touch Gestures:</span> Users can select data points via <span class='inline-txt'>lasso selection</span> using a single finger, resize data points using <span class='inline-txt'>two-finger pinch or spread</span>, undo or redo an action using <span class='inline-txt'>three-finger swipe left or right</span>, zoom or pan along an axis using <span class='inline-txt'>two-finger pinch or spread</span>, reset zoom with <span class='inline-txt'>two-finger double tap</span>, or sort data points along an axis by <span class='inline-txt'>long-pressing a single-finger</span> on an axis. \n\n <span class='bold-txt'>Features:</span> Users can color, resize or assign shapes to data points. They can also filter data, encode data attributes to size and color, view details of selected points, and undo or redo their actions. They can upload custom SVGs and color or resize the uploaded SVGs.",
             "languages": [
@@ -91,7 +91,7 @@
         "profileImgSrc": "./images/profile.JPG",
         "endertLink": "http://va.gatech.edu/endert/",
         "andrisLink": "https://planning.gatech.edu/people/clio-andris",
-        "emailImgSrc": "./images/email.jpg",
+        "emailImgSrc": "./images/email.png",
         "resumeLink": "https://drive.google.com/file/d/1vUUeRzmF-YYZ4FXKqE_ch4seh1JejLrJ/view?usp=sharing"
     }
 }
