@@ -77,7 +77,7 @@
   font-size: 1.7em;
 }
 
-.proj-link {
+.blue-link {
   /* color: #228AFF; */
   color: #2AA3D0;
   text-decoration: none;
@@ -85,8 +85,8 @@
 
 .card-link:hover,
 .card-link:active,
-.proj-link:hover,
-.proj-link:active {
+.blue-link:hover,
+.blue-link:active {
   color: black;
 }
 
@@ -136,6 +136,10 @@
 .inline-txt {
   color: #996515;
   /* font-weight: 600; */
+}
+
+img.social-media-icon {
+  vertical-align: sub;
 }
 
 @media only screen and (max-width: 575px) {

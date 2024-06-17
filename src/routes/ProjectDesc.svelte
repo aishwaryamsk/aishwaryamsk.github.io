@@ -27,7 +27,7 @@
       <span class="p-1">
         <i class="bi bi-link-45deg link-icon" />
         <a
-          class="proj-link bold-txt"
+          class="blue-link bold-txt"
           href={projectsRef.projects[loc].demoLink}
           target="_blank">Demo</a
         >
@@ -36,7 +36,7 @@
         <span class="p-1">
           <i class="bi bi-link-45deg link-icon" />
           <a
-            class="proj-link bold-txt"
+            class="blue-link bold-txt"
             href={projectsRef.projects[loc].github}
             target="_blank">GitHub</a
           >
@@ -46,7 +46,7 @@
         <span class="p-1">
           <i class="bi bi-link-45deg link-icon" />
           <a
-            class="proj-link bold-txt"
+            class="blue-link bold-txt"
             href={projectsRef.projects[loc].challengeLink}
             target="_blank">Challenge</a
           >
@@ -56,7 +56,7 @@
         <span class="p-1">
           <i class="bi bi-link-45deg link-icon" />
           <a
-            class="proj-link bold-txt"
+            class="blue-link bold-txt"
             href={projectsRef.projects[loc].refDataset}
             target="_blank">Reference Dataset</a
           >
@@ -76,7 +76,7 @@
     {#if projectsRef.projects[loc].sourceLink}
       <span class="bold-txt">Data Source: </span>
       <a
-        class="proj-link"
+        class="blue-link"
         href={projectsRef.projects[loc].sourceLink}
         target="_blank">{projectsRef.projects[loc].source}</a
       >

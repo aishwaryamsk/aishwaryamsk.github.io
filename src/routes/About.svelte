@@ -13,35 +13,46 @@
   </div>
   <div class="col-sm-9 p-3">
     <div>
-      Hello there! I’m a second-year master’s student in
-      <span class="bold-txt">Computer Science</span> specializing in
-      <span class="bold-txt">Visual Analytics</span> at Georgia Institute of
-      Technology. I’m interested in data visualization and visual analytics. I
-      currently work with
-      <a class="proj-link" href={data.endertLink} target="_blank"
-        >Dr. Alex Endert</a
-      >
-      on visualization recommendation systems for mobile devices. I’m also a Graduate
-      Teaching Assistant to
-      <a class="proj-link" href={data.andrisLink} target="_blank"
-        >Dr. Clio Andris</a
-      >
-      for the course CS 4460-Intro to Information Visualization.
+      Hello there! I’m a front-end developer at Viavi Solutions, Inc. 
+      I’m a recent graduate from Georgia Institute of Technology where I acquired a master’s in <span class="bold-txt">Computer Science</span> 
+      with a specialization in <span class="bold-txt">Visual Analytics</span>. I enjoy working with data and design, 
+      hence <span class="bold-txt">Visual Analytics</span> and <span class="bold-txt">Front-End Development</span> are my forte.
       <br />
-      I graduate in May 2023 and I’m open to full-time roles in visual analytics.
       Feel free to reach out and get in touch!
     </div>
 
     <p />
-    <div>
-      <span class="bold-txt">Email: </span>
-      <img src={data.emailImgSrc} alt="email" />
-    </div>
-    <div>
+    <span class="mr-2">
+      <img
+      class="social-media-icon"
+      src={data.githubIcon}
+        alt="GitHub Icon"
+        height="22"
+        width="22"
+      />
+      <a class="blue-link bold-txt m-auto" href={data.github} target="_blank">GitHub</a
+      >
+    </span>
+    <span class="mr-2">
+      <img
+      class="social-media-icon"
+      src={data.linkedIcon}
+        alt="LinkedIn Icon"
+        height="22"
+        width="22"
+      />
+      <a class="blue-link bold-txt" href={data.linkedIn} target="_blank"
+        >LinkedIn</a
+      >
+    </span>
+    <span class="mr-2">
       <i class="bi bi-link-45deg link-icon" />
-      <a class="proj-link bold-txt" href={data.resumeLink} target="_blank"
+      <a class="blue-link bold-txt" href={data.resumeLink} target="_blank"
         >Resume</a
       >
-    </div>
+    </span>
+   <!--  <p />
+      <span class="bold-txt">Email: </span>
+      <img src={data.emailImgSrc} alt="email" /> -->
   </div>
 </div>
